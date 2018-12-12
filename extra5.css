@@ -1,0 +1,67 @@
+body{
+	background: radial-gradient(rgb(200, 200, 200), rgb(50, 50, 50) 75%);
+}
+table{
+	position: relative;
+	background-color: rgba(50, 50, 50, 0.5);
+	width: 80%;
+	height: 80%;
+	left: 10%;
+	top: 10%;
+}
+td{
+	position: relative;
+	width: 50%;
+	height: 50%;
+	cursor: pointer;
+}
+p{
+	position: relative;
+	top: -25%;
+	font-size: 300%;
+	text-align: center;
+}
+
+#start{
+	position:absolute;
+	background-color: rgba(50, 50, 50, 0.25);
+	border-style: solid;
+	width: 20%;
+	height: 10%;
+	left: 40%;
+	top: 7%;
+	cursor: pointer;
+}
+#game{
+	position:absolute;
+	background-color: rgba(50, 50, 50, 0.5);
+	width: 40%;
+	height: 50%;
+	left: 30%;
+	top: 25%;
+}
+#RED{
+	background-color: rgba(255, 50, 50, 0.25);
+}
+#YELLOW{
+	background-color: rgba(255, 255, 50, 0.25);
+}
+#BLUE{
+	background-color: rgba(50, 50, 255, 0.25);
+}
+#GREEN{
+	background-color: rgba(50, 255, 50, 0.25);
+}
+#RED:active{
+	background-color: rgba(255, 50, 50, 0.75);
+}
+#YELLOW:active{
+	background-color: rgba(255, 255, 50, 0.75);
+}
+#BLUE:active{
+	background-color: rgba(50, 50, 255, 0.75);
+}
+#GREEN:active{
+	background-color: rgba(50, 255, 50, 0.75);
+}
+
